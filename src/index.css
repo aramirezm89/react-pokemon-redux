@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.divPre{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid;
+  padding: 20px;
+  
+}

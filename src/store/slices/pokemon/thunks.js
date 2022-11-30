@@ -2,6 +2,7 @@ import { setPokemons, startLoadingPokemons } from "./pokemonSlice";
 import axios from 'axios'
 
 export const getPokemons = (page = 0) => {
+  
   return async (dispatch, getState) => {
     dispatch(startLoadingPokemons());
 

@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { store } from './store';
 import { Pokemon } from './Pokemon';
+import { Todo } from './ejemplo rtk query/Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <Provider store={store}>
-     <Pokemon/>
+   {/*   <Pokemon/> */}
+   <Todo/>
   </Provider>
   </React.StrictMode>
 );
